@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header-wrap {
+  width: 100%;
+  height: 400px;
+}
+.header-container {
+  width: 100%;
+  height: 400px;
+  background-image: url(https://modo-phinf.pstatic.net/20170907_158/1504744757396bVomQ_JPEG/mosaKCpNlY.jpeg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.container-overlay {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  z-index: -8;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-main .home-overlay {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.top_banner {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top_banner ul {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0rem 1rem;
+}
+.top_banner li {
+  padding: 1rem 1rem;
+  color: white;
+}
+
+.logo_wrap {
+  width: 100%;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.logo_title {
+  color: rgb(200 206 205);
+}
+
+.top-text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: rosybrown;
+  margin-top: 50px;
+}
+
+.home-main {
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.map_img {
+  width: 150px;
+  height: 150px;
+}
+
+.QR_cord {
+  margin-top: 100px;
+  background-image: url(https://modo-phinf.pstatic.net/20210412_269/1618180603861754Vj_JPEG/mosa4ptfkV.jpeg?type=f530_353);
+  width: 530px;
+  height: 350px;
+  background-size: cover;
+}
+
+.hashtag {
+  margin-left: 5px;
+}
+.red {
+  color: rgb(239 68 68);
+}
+
+.green {
+  color: rgb(74 222 128);
+}
+
+.yellow {
+  color: rgb(250 204 21);
+}
+
+.teal {
+  color: rgb(94 234 212);
+}
+
+.violet {
+  color: rgb(139 92 246);
+}
+
+.pink {
+  color: rgb(236 72 153);
+}
+
+.blue {
+  color: rgb(99 102 241);
+}
+
+.shop_main {
+  margin-top: 100px;
+  padding: 0 1.5rem;
+}
+
+.shoppage_title {
+  color: rgb(149 128 99);
+}
