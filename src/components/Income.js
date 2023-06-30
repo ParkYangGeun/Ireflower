@@ -322,15 +322,3 @@ export default function Watch() {
     </>
   );
 }
-
-{
-  /* <div className="slide_box1">
-            <div className="slide_container">
-                <img src="https://modo-phinf.pstatic.net/20160920_292/1474321273874pF1Eb_JPEG/mosaBeaXB3.jpeg?type=f540_540" alt="" className="slide_item" />
-                <img src="https://modo-phinf.pstatic.net/20160920_178/1474321274520sHnfm_JPEG/mosawou1Av.jpeg?type=f540_540" alt="" className="slide_item" />
-                <img src="https://modo-phinf.pstatic.net/20160920_196/1474321185042lVF1l_JPEG/mosaSeiYvz.jpeg?type=f540_540" alt="" className="slide_item" />
-                <img src="https://modo-phinf.pstatic.net/20160920_292/1474321273874pF1Eb_JPEG/mosaBeaXB3.jpeg?type=f540_540" alt="" className="slide_item" />
-                <img src="https://modo-phinf.pstatic.net/20160920_292/1474321273874pF1Eb_JPEG/mosaBeaXB3.jpeg?type=f540_540" alt="" className="slide_item" />
-            </div>
-        </div> */
-}

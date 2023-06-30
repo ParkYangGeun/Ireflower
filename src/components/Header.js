@@ -17,6 +17,10 @@ export default function Header() {
 
                     </li>
                     <li>
+                        <Link to="/group/:groupId">Test</Link>
+
+                    </li>
+                    <li>
                         <Link to="/curious">궁금해요</Link>
 
                     </li>

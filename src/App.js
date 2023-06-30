@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Home from './page/Home'
 import Shop from './page/Shop'
 import Watch from './page/Watch'
+import Group from './components/Group'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
         <Route path="/watch" element={<Watch />}></Route>
+        <Route path="/group/:groupId" element={<Group />} />
       </Routes>
         
 

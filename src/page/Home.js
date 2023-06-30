@@ -37,7 +37,20 @@ export default function Home() {
         <span className="hashtag pink">#꽃다발 </span>
         <span className="hashtag blue">#여기가최고 </span>
 
-        <div className="QR_cord"></div>
+        <div className="QR_Wrap">
+          <div className="home_QR_cord">
+            <img className="QR_img" src="https://modo-phinf.pstatic.net/20210412_269/1618180603861754Vj_JPEG/mosa4ptfkV.jpeg?type=f530_353" alt="" />
+          </div>
+          <div className="QR_explain">
+            <h3>영업시간</h3>
+            
+            평 일: 오전4시 ~ 오후1시까지<br />
+            공휴일: ~12시<br />
+            <p className="subtext">
+              ★인스타 계정: jireh159 '이레무역'으로 검색하시면 빨라요
+            </p> 
+          </div>
+        </div>
       </div>
     </>
   );
