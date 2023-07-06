@@ -1,7 +1,7 @@
 import "./App.css";
 import Topbanner from "./components/Topbanner";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
