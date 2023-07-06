@@ -1,43 +1,93 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useRef } from "react";
 
 export default function Header() {
-    return (
-        <>
-            <div className="top_banner">
-                <ul>
-                    <li>
-                        <Link to="/">홈</Link>
-                    </li>
-                    <li>
-                        <Link to="/shop">샵소개</Link>
-                    </li>
-                    <li>
-                        <Link to="/watch">꽃구경</Link>
+  const [scr_active, setscrActive] = useState(false);
 
-                    </li>
-                    <li>
-                        <Link to="/group/:groupId">Test</Link>
+  const [bodyscr, setBodyscr] = useState(false);
+  const [color_active, setColor_active] = useState(false);
+  
 
-                    </li>
-                    <li>
-                        <Link to="/curious">궁금해요</Link>
+  let scrollY;
+  let prescrollY;
 
-                    </li>
-                    <li>
-                        <Link to="/way">오시는길</Link>
+  const { pathname } = useLocation();
 
-                    </li>
-                    <li>
-                        <Link to="/event">이벤트</Link>
+  useEffect(() => {
+    if(pathname!=="/"){
+        setColor_active(true);
+    }
+    else{
+        setColor_active(false);
+    }
+        
+    }, [pathname])
 
-                    </li>
-                </ul>
-                <div className="open_btn">
 
-                </div>
-            </div>
-        </>
-    )
+  useEffect(() => {
+    window.addEventListener("scroll", (e) => {
+      scrollY = window.scrollY;
 
+      if (scrollY > prescrollY) {
+        setscrActive(false);
+        if (scrollY > 300) {
+          setBodyscr(true);
+        } else {
+          setBodyscr(false);
+        }
+      } else {
+        setscrActive(true);
+        if (scrollY > 300) {
+          setBodyscr(true);
+        } else {
+          setBodyscr(false);
+        }
+      }
+      prescrollY = scrollY;
+    });
+  }, []);
+
+  const banner_st = {
+    // display:active ? "block" : "none"
+    opacity: scr_active ? 100 : 1,
+    backgroundColor: bodyscr ? "#333" : "",
+    backgroundColor: color_active ? "#aaa" : "#333",
+    fontWeight:600,
+    transition : "0.5s",
+    width:"100%"
+  };
+
+  const list_st = {
+    // color: color_active ? "#333" : "white"
+    color: color_active ? "#333" : "white"
+  }
+
+  return (
+    <>
+      <div className="top_banner" style={banner_st}>
+        <ul >
+          <li >
+            <Link to="/" style={list_st}>홈</Link>
+          </li>
+          <li>
+            <Link to="/shop" style={list_st}>샵소개</Link>
+          </li>
+          <li>
+            <Link to="/group/1" style={list_st}>꽃구경</Link>
+          </li>
+          <li>
+            <Link to="/curious" style={list_st}>궁금해요</Link>
+          </li>
+          <li>
+            <Link to="/way" style={list_st}>오시는길</Link>
+          </li>
+          <li>
+            <Link to="/event" style={list_st}>이벤트</Link>
+          </li>
+        </ul>
+        <div className="open_btn"></div>
+      </div>
+    </>
+  );
 }
