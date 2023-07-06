@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useState, useRef } from "react";
+import { useState} from "react";
 
 export default function Header() {
   const [scr_active, setscrActive] = useState(false);

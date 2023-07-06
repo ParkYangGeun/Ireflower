@@ -1,5 +1,4 @@
 import "./App.css";
-import Topbanner from "./components/Topbanner";
 import {
   HashRouter as Router,
   Routes,
@@ -13,7 +12,6 @@ import Header from "./components/Header";
 import Home from "./page/Home";
 import Shop from "./page/Shop";
 import Group from "./components/Group";
-import Income from "./components/Income";
 import Test from "./components/Test";
 import Curious from "./page/Curious"
 import Way from "./page/Way"

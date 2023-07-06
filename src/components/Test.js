@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Group from "./Group";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";

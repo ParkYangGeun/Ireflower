@@ -1,5 +1,4 @@
 import React from "react";
-import Topbanner from "../components/Topbanner";
 
 export default function Home() {
 
