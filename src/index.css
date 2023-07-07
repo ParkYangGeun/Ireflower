@@ -125,8 +125,8 @@ a {
   text-align: center;
 }
 
-.Way-page{
-  margin:200px auto;
+.Way-page {
+  margin: 200px auto;
   text-align: center;
 }
 
@@ -285,21 +285,73 @@ a {
   margin-right: 0.5rem;
 }
 
-.question_list{
+.question_list {
   border-radius: 5px;
-  margin:20px;
-  padding:10px;
+  margin: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.question_list_title{
+.question_list_title {
   font-weight: bold;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   box-sizing: border-box;
-  padding:0 1.5rem;
+  padding: 0 1.5rem;
+}
+.Way_page {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Way_route_title {
+  color: rgb(134, 58, 11);
+  margin-top: 4rem;
+}
+.Way_route{
+  margin-bottom:4rem;
+}
+.Page_footer {
+  background-color: black;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+
+.footer_title {
+  width: 17.3rem;
+  height: 4rem;
+  box-sizing: border-box;
+  padding: 1.2rem 1rem;
+  border: 1px solid #aaa;
+}
+
+.footer_wrap {
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+}
+
+.Page_footer ul li {
+  color: #aaa;
+  margin-right: 1rem;
+}
+
+.footer_listbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_listbox li::after {
+  margin-left: 1rem;
+  content: "|";
+  color: "aaa";
+}
+
+.footer_listbox li:last-child::after {
+  content: "";
 }
 
 @media (min-width: 1024px) {

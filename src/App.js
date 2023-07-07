@@ -16,6 +16,7 @@ import Test from "./components/Test";
 import Curious from "./page/Curious"
 import Way from "./page/Way"
 import Event from "./page/Event"
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/way" element={<Way />} />
         <Route path="/event" element={<Event />} />
       </Routes>
+      <Footer></Footer>
     </Router>
   );
 }
