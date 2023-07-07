@@ -40,16 +40,3 @@ export default function Group() {
   );
 }
 
-{
-  /* <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/shop" element={<Shop />}></Route>
-        <Route path="/watch" element={<Watch />}></Route>
-        <Route path="/group/:groupId" element={<Group />} />
-      </Routes>
-        
-
-    </Router> */
-}

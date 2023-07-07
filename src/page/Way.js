@@ -74,7 +74,7 @@ export default function Way() {
             }}
           >
             경부고속도로 양재IC 근처 <br />
-            <span className="hashtag blue" style={{fontWeight:600}}>
+            <span className="hashtag blue" style={{ fontWeight: 600 }}>
               "양재동 화훼공판장 생화 꽃도매시장"
             </span>{" "}
             을 입력하고 찾아오세요.
