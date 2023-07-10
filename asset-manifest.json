@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Ireflower/static/css/main.7388aba4.css",
-    "main.js": "/Ireflower/static/js/main.7ecafc80.js",
+    "main.css": "/Ireflower/static/css/main.3ebaf42f.css",
+    "main.js": "/Ireflower/static/js/main.460fee54.js",
     "static/media/slick.svg": "/Ireflower/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Ireflower/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Ireflower/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Ireflower/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Ireflower/index.html",
-    "main.7388aba4.css.map": "/Ireflower/static/css/main.7388aba4.css.map",
-    "main.7ecafc80.js.map": "/Ireflower/static/js/main.7ecafc80.js.map"
+    "main.3ebaf42f.css.map": "/Ireflower/static/css/main.3ebaf42f.css.map",
+    "main.460fee54.js.map": "/Ireflower/static/js/main.460fee54.js.map"
   },
   "entrypoints": [
-    "static/css/main.7388aba4.css",
-    "static/js/main.7ecafc80.js"
+    "static/css/main.3ebaf42f.css",
+    "static/js/main.460fee54.js"
   ]
 }
