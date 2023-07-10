@@ -55,7 +55,7 @@ export default function Curious() {
         <hr />
         <List items={DATA} />
 
-        <div>
+        <div className="btn_wrap">
           <button className="add_list_btn">
             <Link to="/curious/write" className="add_list_link">
               글쓰기

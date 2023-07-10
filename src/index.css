@@ -197,30 +197,55 @@ a {
   margin-top: 100px;
 }
 
-input{
+input {
   font-size: 1rem;
   box-sizing: border-box;
   padding: 0.5rem 1rem;
 }
 
-label{
+label {
   font-size: 1rem;
-  font-weight:600;
+  font-weight: 600;
 }
 
-textarea{
-  height:300px;
+textarea {
+  height: 300px;
 }
 
-.input_form{
-  width:80%;
-  margin:0 auto;
-  height:600px;
+.go_to_contact {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.go_contact_icon {
+  fill: darkorange;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+}
+
+.go_contact_btn {
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.go_contact_btn:hover {
+  background-color: #ddd;
+}
+
+.go_contact {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.input_form {
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
-  padding:0rem 2rem;
+  padding: 0rem 2rem;
   margin-bottom: 4rem;
 }
 
@@ -444,5 +469,25 @@ textarea{
   .group-wrap {
     font-size: 0.8rem;
     width: 85%;
+  }
+  .home-main {
+    width: 90%;
+  }
+
+  .btn_wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Curious_page {
+    padding: 0.5rem 1rem;
+  }
+
+  .add_list_btn {
+    margin-right: 0;
+  }
+
+  .Page_footer {
+    height: inherit;
   }
 }

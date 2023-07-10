@@ -606,13 +606,7 @@ export default function Test() {
     el.current.slickGoTo(0);
   }, [groupId]);
 
-  
-
-  const listtitle = (
-    <h3 className="listtitle">
-      {group.name}
-    </h3>
-  )
+  const listtitle = <h3 className="listtitle">{group.name}</h3>;
 
   const itemList = group.list.map((item) => (
     <div key={item.listId} className="item_wrap">
@@ -668,7 +662,7 @@ export default function Test() {
           slidesToScroll: 1,
           infinite: true,
           arrows: true,
-          dots: true,
+          dots: false,
           initialSlide: 0,
         },
       },
