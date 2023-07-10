@@ -193,6 +193,49 @@ a {
   color: rgb(99 102 241);
 }
 
+.Contact_page {
+  margin-top: 100px;
+}
+
+input{
+  font-size: 1rem;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
+}
+
+label{
+  font-size: 1rem;
+  font-weight:600;
+}
+
+textarea{
+  height:300px;
+}
+
+.input_form{
+  width:80%;
+  margin:0 auto;
+  height:600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding:0rem 2rem;
+  margin-bottom: 4rem;
+}
+
+.add_list_btn {
+  margin-top: 2rem;
+  cursor: pointer;
+  width: 5.5rem;
+  margin-right: 2rem;
+  height: 2.5rem;
+  background-color: rgb(134, 58, 11);
+  color: white;
+  border: 0.5px solid black;
+  border-radius: 5px;
+}
+
 .shop_intro_text {
   width: 90%;
   margin-top: 50px;
@@ -277,6 +320,14 @@ a {
   border-bottom: 2px solid rgb(134, 58, 11);
 }
 
+.add_list_link {
+  color: white;
+}
+
+.Curious_list {
+  cursor: pointer;
+}
+
 .slide_item {
   width: 200px;
   height: 200px;
@@ -311,8 +362,8 @@ a {
   color: rgb(134, 58, 11);
   margin-top: 4rem;
 }
-.Way_route{
-  margin-bottom:4rem;
+.Way_route {
+  margin-bottom: 4rem;
 }
 .Page_footer {
   background-color: black;

@@ -3,10 +3,10 @@ import Item from "./Item";
 
 function List({items}){
   return(
-    <div>
+    <div className="Curious_list">
       {
         items.reverse().map((item)=>
-          <Item item={item}></Item>
+          <Item key={item.id} item={item}></Item>
         )
       }
     </div>
